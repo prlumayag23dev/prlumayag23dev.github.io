@@ -132,7 +132,15 @@ span{
 }
 
 .home-content p{
-    font-size:1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+    text-indent: 2.5rem;
+    text-align: justify;
+    max-width: 90%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    color: white;
 }
 
 .home-img{
@@ -141,7 +149,7 @@ span{
 
 .home-img img{
     position: relative;
-    width: 35vw;
+    width: 50vw;
     border-radius: 50%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -151,6 +159,13 @@ span{
 .home-img img:hover{
     font-size: 2rem;
     font-weight: 600;
+}
+
+.home .exp{
+    width:100%;
+    max-width:500px;
+    object-fit: cover;  
+    vertical-align: middle;
 }
 
 .social-icons a{
@@ -257,3 +272,55 @@ span{
         width: 65vh;
         margin-top: 5rem;
     }
+
+
+ ABOUT me
+
+.home-about {
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.home-about h1{
+    text-underline-offset: 1rem;
+}
+
+.home-about p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+    text-indent: 2.5rem;
+    text-align: justify;
+    max-width: 75%;
+    overflow-wrap: normal;
+    word-break: break-word;
+    color: black;
+}
+
+.exp img{
+    width:100%;
+    max-width:350px;
+    object-fit:cover;
+    vertical-align:middle;
+} 
+
+.about-gallery img{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+
+.home-about h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 4px;
+    color: purple;
+    align-content: baseline;
+
+}
