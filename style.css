@@ -330,9 +330,10 @@ span{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 100%;
+    width: calc(100% - 2rem);
     max-width: 900px;
     margin: 0 auto;
+    padding-left: 1rem;
 }
 
 .about-gallery{
