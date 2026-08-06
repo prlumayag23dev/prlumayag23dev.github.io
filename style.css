@@ -224,6 +224,7 @@ span{
     width: calc(100% + 7px);
     height: 100%;
     right: -8;
+    color: transparent;
 }
 
 @keyframes cursor{
