@@ -216,6 +216,11 @@ span{
     box-shadow: 0 0 20px;
 }
 
+.btn-container{
+    text-align: center;
+    margin: 2rem 0;
+}
+
 .typing-text{
     font-size: 35px;
     font-weight: 600;
@@ -424,4 +429,57 @@ span{
 .active,
 .demo:hover {
     opacity:1;
+}
+
+Skills
+
+
+.skill wrapper img{
+    max-width:500px;
+    position: relative;
+    width: 150vw;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: pink;
+}
+
+.wrapper {
+    margin: 150px auto;
+
+}
+
+.wrapper img {
+    max-width:500px;
+    margin-left:35px;
+    float: left;
+    border: 5px solid black;
+    border-radius:15px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.text-box {
+    color: black;
+    font-size: 18px;
+    row-gap:3px;
+}
+
+.text-box h2{
+    font-size:50px;
+    color: white;
+    text-decoration:underline;
+    text-decoration-color:black;
+}
+
+.body2.btn {
+    align-items: center;
 }
