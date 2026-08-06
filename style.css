@@ -224,7 +224,6 @@ span{
     width: calc(100% + 7px);
     height: 100%;
     right: -8;
-    animation: cursor 0.7s infinite;
 }
 
 @keyframes cursor{
