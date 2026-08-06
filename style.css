@@ -223,7 +223,6 @@ span{
     position: absolute;
     width: calc(100% + 7px);
     height: 100%;
-    border-left: 3px solid white;
     right: -8;
     animation: cursor 0.7s infinite;
 }
