@@ -422,7 +422,7 @@ span{
     opacity:1;
 }
 
-Skills
+Skills & Credentials
 
 
 .skill wrapper img{
@@ -510,4 +510,146 @@ body1 {
 
 .body2.btn {
     align-items: center;
+}
+
+Hire me 
+
+.hireme {
+    max-width:800px;
+    margin:80px auto;
+    padding:45px;
+    background:wheat;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hireme p {
+    font-size:1.8rem;
+}
+
+.hireme h1 {
+    margin-top:10px;
+    margin-left:10px;
+    font-size:50px;
+}
+
+.hireme h2 {
+    font-size:6rem;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.subtitle {
+    text-align:center;
+    color:black;
+    margin-bottom:45px;
+    line-height:1.5;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display:flex;
+    flex-direction:column;
+}
+
+.full-width {
+    grid-column:1 / -1;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight:600;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:18px;
+    transition:.5s;
+}
+
+input:focus,
+textarea:focus {
+    outline:none;
+    border-color:purple;
+    box-shadow:0 0 0 3px rgba(79,70,229,.15);
+}
+
+textarea {
+    resize:vertical;
+}
+
+.submit-btn {
+    grid-column:1 / -1;
+
+    width:200px;
+    justify-self:center;
+
+    padding:15px;
+
+    border:none;
+    border-radius:10px;
+
+    background:wheat;
+    color:black;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:.5s;
+}
+
+.btn1 {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem 2.5rem;
+    background-color: #686868;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    border: 2.5px solid purple;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.submit-btn1:hover {
+    background:#686868;
+    transform:translateY(-4px);
+}
+
+/*MOBILE*/
+
+@media (max-width:768px) {
+
+    .hireme {
+        margin:35px 25px;
+        padding:30px;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width {
+        grid-column:auto;
+    }
+
+    .submit-btn {
+        width:100%;
+    }
 }
