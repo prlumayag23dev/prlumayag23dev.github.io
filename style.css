@@ -628,11 +628,11 @@ textarea {
 
     padding:15px;
 
-    border:none;
+    border:solid 2px black;
     border-radius:10px;
 
-    background:wheat;
-    color:black;
+    background:#686868;
+    color:white;
 
     font-size:18px;
     font-weight:bold;
