@@ -24,6 +24,14 @@ body{
     color: white;
 }
 
+.aboutme{
+    min-height: 100vh;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 header{
     margin-top: 20px;
     position: fixed;
@@ -68,7 +76,7 @@ nav a.active{
     border-bottom: 4px solid purple;
 }
 
-@media(max-width:900px){
+@media(max-width:768px){
     nav{
         position: absolute;
         display: block;
@@ -112,7 +120,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: pink;
+    background-color: transparent;
 }
 
 .home .home-content h1{
@@ -299,6 +307,17 @@ span{
     overflow-wrap: normal;
     word-break: break-word;
     color: black;
+}
+
+.about-text-box p { 
+    color: white; font-size: 17px;
+    line-height: 1.8; margin-bottom: 20px; 
+    text-align: justify; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
+} 
+    
+.about-text-box p:last-child { 
+    margin-bottom: 0; 
 }
 
 .exp img{
@@ -489,11 +508,11 @@ body1 {
     }
 }
 
-.text-box h2{
+.text-box h1{
     font-size:50px;
     color: #686868;
     text-decoration:underline;
-    text-decoration-color:black;
+    text-decoration-color:white;
 }
 
 .credentials h2{
