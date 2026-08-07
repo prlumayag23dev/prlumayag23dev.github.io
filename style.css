@@ -539,13 +539,23 @@ body1 {
 
 Hire me 
 
+.hiremee {
+    min-height: 100vh;
+    background-image: url("img/homepage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+
 .hireme {
-    max-width:800px;
-    margin:80px auto;
-    padding:45px;
-    background:wheat;
-    border-radius:12px;
-    box-shadow:0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 45px;
+    background: rgba(245, 222, 179, 0.92);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .hireme p {
