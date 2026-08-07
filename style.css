@@ -149,6 +149,8 @@ span{
 
 .home-img img{
     position: relative;
+    margin-left: 35px;
+    border: 15px solid black;
     width: 50vw;
     border-radius: 50%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
@@ -221,30 +223,19 @@ span{
     margin: 2rem 0;
 }
 
-.typing-text{
+.job{
     font-size: 35px;
     font-weight: 600;
     min-width: 300px;
 }
 
-.typing-text span{
+.job span{
     position: relative;     
 }
 
-.typing-text span::before{
+.job span::before{
     content: "Virtual Assistant!";
     color: #5c4742;
-    animation: words 20s infinite;
-}
-
-.typing-text span::after{
-    content: "";
-    background-color: pink;
-    position: absolute;
-    width: calc(100% + 7px);
-    height: 100%;
-    right: -8;
-    color: transparent;
 }
 
 @keyframes cursor{
@@ -464,7 +455,7 @@ body1 {
     border: 5px solid black;
     border-radius:15px;
     margin-right: 40px;
-    margin-top: 10px;
+    margin-top: 75px;
 }
 
 .text-box {
@@ -478,6 +469,24 @@ body1 {
     color: white;
     text-decoration:underline;
     text-decoration-color:black;
+}
+
+.credentials h2{
+    font-size:50px;
+    text-align: center;
+    color: white;
+    text-decoration:underline;
+    text-decoration-color:black;
+}
+
+.credentials img {
+    max-width:500px;
+    display:flex;
+    margin: auto;
+    float: center;
+    border: 5px solid black;
+    border-radius:15px;
+    align-items: center;
 }
 
 .body2.btn {
