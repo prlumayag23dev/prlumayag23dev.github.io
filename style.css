@@ -230,12 +230,18 @@ span{
 }
 
 .job span{
-    position: relative;     
+    position: relative;
+    font-size: 5rem;
+    font-weight: 700;
+    display: inline-block;
 }
 
 .job span::before{
     content: "Virtual Assistant!";
     color: #5c4742;
+    font-size: 3rem;
+    display: block;
+    margin-top: 0.5rem;
 }
 
 @keyframes cursor{
@@ -528,12 +534,6 @@ Hire me
 }
 
 .hireme h1 {
-    margin-top:10px;
-    margin-left:10px;
-    font-size:50px;
-}
-
-.hireme h2 {
     font-size:6rem;
     margin-bottom:15px;
     text-align:center;
@@ -632,6 +632,22 @@ textarea {
     transform:translateY(-4px);
 }
 
+.contact-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-bottom: 2rem;
+}
+
+.phone-btn .btn1 {
+    margin: 0;
+}
+
 /*MOBILE*/
 
 @media (max-width:768px) {
@@ -653,3 +669,4 @@ textarea {
         width:100%;
     }
 }
+
