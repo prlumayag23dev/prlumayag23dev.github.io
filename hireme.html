@@ -7,21 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="form">
-        <form action="https://formspree.io/f/xzepzjbv" method="POST">
-    <label>Your email:
-        <input type="email" name="email">
-    </label>
-    <br></br>
-    <label>Subject:
-        <input type="subject" name="subject">
-    <br></br>
-    </label>
-    <label>Your message:
-        <textarea name="message"></textarea>
-    </label><br></br>
-        <button type="submit">Send</button>
-    </form>
+<section class="hireme">
+    <h1>HELLO!</h1>
+    <h2>Contact Me:</h2>
+    <p class="subtitle">
+        Have a project in mind or looking for a Virtual Assistant? Let's talk.
+    </p>
+<br></br>
+ <form action="https://formspree.io/f/xzepzjbv" method="POST" class="contact-form">
+
+    <div class="form-group">
+        <label for="name">Full Name</label>
+        <input 
+            type="text"
+            id="name"
+            name="name"
+            placeholder="John Doe"
+            required>
     </div>
+    <br></br>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="johndoe@gmail.com"
+            required>
+    </div>
+    <br></br>
+    <div class="form-group full-width">
+        <label for="subject">Subject:</label>
+        <input 
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Project">
+    </div>
+    <br></br>
+    <div class="form-group full-width">
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Tell me what do you have in mind..."
+            required></textarea>
+    </div>
+    <br></br>
+        <button type="submit" class="submit-btn">
+            Send!
+        </button>
+    </form>
+</section>
+    <a href="index.html" class="btn1">Back to Home</a>
 </body>
 </html>
